@@ -12,7 +12,8 @@ def analyse(fichier):
         return "Le fichier n'existe pas"
     
 fichier = "data.csv"
-results = analyse(fichier)    
+results = analyse(fichier)
+print ("Bienvenue dans mon premier fichier")    
 print (f"Analyse terminée. Moyenne: {results[0]}, Max : {results[0]}")
 
 
