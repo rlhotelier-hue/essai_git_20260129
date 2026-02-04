@@ -10,7 +10,7 @@ def calculer_max(liste_nombre):
 
 def division_securisee(a, b):
     try:
-        resultat = a / b
+        resultat = a / b 
         return resultat
     except ZeroDivisionError:
         return "Erreur : On epeut pas diviser par zéro !"
