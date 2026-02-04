@@ -1,4 +1,4 @@
-from calculs import calculer_moyenne, calculer_max
+from app.calculs import calculer_moyenne, calculer_max
 
 def test_moyenne_standard():
     # On prépare une liste de test

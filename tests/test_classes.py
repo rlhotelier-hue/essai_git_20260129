@@ -1,5 +1,5 @@
 # 1. On importe la classe (le moule), pas les fonctions
-from analyseur_classe import AnalyseurStatistique
+from app.analyseur_classe import AnalyseurStatistique
 import pandas as pd
 
 def test_donner_moyenne():
